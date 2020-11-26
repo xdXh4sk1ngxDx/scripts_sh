@@ -14,7 +14,7 @@ then
   
   for url in $lista_urls
   do
-  host $url | grep "has address"
+    host $url | grep "has address"
   done
   
   rm $1.txt
